@@ -1,0 +1,6 @@
+{name: "搜索", task: "foo-search"},
+{name: "生成二维码", task: "foo-qrcode"},
+{name: "翻译:英>中", task: "foo-fanyi-en"},
+{name: "滴答清单", task: "foo-ticktick"},
+{name: "随笔记", task: "foo-gnote"},
+{name: "分享", task: "foo-share"},

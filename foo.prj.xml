@@ -1,0 +1,1122 @@
+<TaskerData sr="" dvi="1" tv="4.9u3m">
+	<dmetric>1080.0,1920.0</dmetric>
+	<Profile sr="prof124" ve="2">
+		<cdate>1505493176174</cdate>
+		<clp>true</clp>
+		<edate>1505570081103</edate>
+		<id>124</id>
+		<mid0>131</mid0>
+		<nme>foo</nme>
+		<Event sr="con0" ve="2">
+			<code>3050</code>
+			<pri>0</pri>
+			<Str sr="arg0" ve="3">%CLIP</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="0"/>
+		</Event>
+	</Profile>
+	<Project sr="proj0" ve="2">
+		<cdate>1505567144607</cdate>
+		<name>foo</name>
+		<pids>124</pids>
+		<scenes>foo,foo-selector,word,qrcode</scenes>
+		<tids>134,129,120,111,131,115,112,105,122,133,130,123,121,114,132,125,113</tids>
+	</Project>
+	<Scene sr="scenefoo">
+		<cdate>1499787729829</cdate>
+		<edate>1505584193884</edate>
+		<gridSize>26</gridSize>
+		<heightLand>-1</heightLand>
+		<heightPort>90</heightPort>
+		<nme>foo</nme>
+		<widthLand>-1</widthLand>
+		<widthPort>90</widthPort>
+		<ImageElement sr="elements0" ve="2">
+			<clickTask>129</clickTask>
+			<flags>4</flags>
+			<geom>0,0,90,90,0,0,150,150</geom>
+			<Str sr="arg0" ve="3">foo</Str>
+			<Img sr="arg1" ve="2">
+				<nme>cust_scrubber_normal</nme>
+			</Img>
+			<Int sr="arg2" val="255"/>
+			<Str sr="arg3" ve="3">#FF0099CC</Str>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</ImageElement>
+		<PropertiesElement sr="props">
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="2"/>
+			<Str sr="arg2" ve="3">#00FFFFFF</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">方片</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+		</PropertiesElement>
+	</Scene>
+	<Scene sr="scenefoo-selector">
+		<cdate>1504006228201</cdate>
+		<edate>1505584227888</edate>
+		<heightLand>-1</heightLand>
+		<heightPort>550</heightPort>
+		<nme>foo-selector</nme>
+		<widthLand>-1</widthLand>
+		<widthPort>430</widthPort>
+		<WebElement sr="elements0" ve="2">
+			<flags>4</flags>
+			<geom>0,0,430,550,0,0,696,1192</geom>
+			<Str sr="arg0" ve="3">selector</Str>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">%FOO_ROOT_PATH/selector.html</Str>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="1"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="28"/>
+				<Str sr="arg5" ve="3">#EF186F6D</Str>
+				<Int sr="arg6" val="10"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</WebElement>
+		<PropertiesElement sr="props">
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="2"/>
+			<Str sr="arg2" ve="3">#40FFFFFF</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">test</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+		</PropertiesElement>
+	</Scene>
+	<Scene sr="sceneqrcode">
+		<cdate>1504006228201</cdate>
+		<edate>1505583466208</edate>
+		<heightLand>-1</heightLand>
+		<heightPort>600</heightPort>
+		<nme>qrcode</nme>
+		<widthLand>-1</widthLand>
+		<widthPort>600</widthPort>
+		<WebElement sr="elements0" ve="2">
+			<flags>4</flags>
+			<geom>0,0,600,600,0,0,696,1192</geom>
+			<Str sr="arg0" ve="3">pay</Str>
+			<Int sr="arg1" val="2"/>
+			<Str sr="arg2" ve="3">%qrcode_html</Str>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="1"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="5"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</WebElement>
+		<TextElement sr="elements1" ve="3">
+			<clickTask>125</clickTask>
+			<flags>4</flags>
+			<geom>550,525,50,75,555,550,45,50</geom>
+			<Str sr="arg0" ve="3">exit</Str>
+			<Str sr="arg1" ve="3">X</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#B5FFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<PropertiesElement sr="props">
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="2"/>
+			<Str sr="arg2" ve="3">#00B9B261</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">test</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+		</PropertiesElement>
+	</Scene>
+	<Scene sr="sceneword">
+		<cdate>1504006228201</cdate>
+		<edate>1505574521277</edate>
+		<heightLand>-1</heightLand>
+		<heightPort>850</heightPort>
+		<nme>word</nme>
+		<widthLand>-1</widthLand>
+		<widthPort>750</widthPort>
+		<WebElement sr="elements0" ve="2">
+			<flags>4</flags>
+			<geom>0,0,750,850,0,0,696,1192</geom>
+			<Str sr="arg0" ve="3">word</Str>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">%root_path/word.html</Str>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="1"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">%word_background_color</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</WebElement>
+		<TextElement sr="elements1" ve="3">
+			<clickTask>114</clickTask>
+			<flags>4</flags>
+			<geom>675,775,75,75,636,0,64,75</geom>
+			<Str sr="arg0" ve="3">exit</Str>
+			<Str sr="arg1" ve="3">x</Str>
+			<Int sr="arg2" val="12"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">#00000000</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<TextElement sr="elements2" ve="3">
+			<clickTask>112</clickTask>
+			<flags>4</flags>
+			<geom>0,775,75,75,616,714,84,85</geom>
+			<Str sr="arg0" ve="3">next</Str>
+			<Str sr="arg1" ve="3">→</Str>
+			<Int sr="arg2" val="12"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">#00000000</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<TextElement sr="elements3" ve="3">
+			<flags>4</flags>
+			<geom>150,775,425,75,125,775,425,75</geom>
+			<Str sr="arg0" ve="3">input-label</Str>
+			<Str sr="arg1" ve="3">请输入单词</Str>
+			<Int sr="arg2" val="10"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<EditTextElement sr="elements4" ve="3">
+			<flags>4</flags>
+			<focuschangeTask>111</focuschangeTask>
+			<geom>150,775,425,75,125,775,475,75</geom>
+			<Str sr="arg0" ve="3">input</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="10"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="1000"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</EditTextElement>
+		<TextElement sr="elements5" ve="3">
+			<clickTask>113</clickTask>
+			<geom>525,775,72,72,525,625,72,72</geom>
+			<Str sr="arg0" ve="3">ok</Str>
+			<Str sr="arg1" ve="3">OK</Str>
+			<Int sr="arg2" val="12"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">#00000000</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<PropertiesElement sr="props">
+			<Int sr="arg0" val="2"/>
+			<Int sr="arg1" val="2"/>
+			<Str sr="arg2" ve="3">#00FFFFFF</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+		</PropertiesElement>
+	</Scene>
+	<Task sr="task105">
+		<cdate>1505561332984</cdate>
+		<edate>1505567024947</edate>
+		<id>105</id>
+		<nme>foo-qrcode</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">qrcode</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%CLIP</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task111">
+		<cdate>1504840918921</cdate>
+		<edate>1504840918921</edate>
+		<id>111</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%focused</lhs>
+					<op>0</op>
+					<rhs>true</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">word</Str>
+			<Str sr="arg1" ve="3">ok</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">word</Str>
+			<Str sr="arg1" ve="3">input-label</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>703</code>
+			<Int sr="arg0" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">word</Str>
+			<Str sr="arg1" ve="3">ok</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">word</Str>
+			<Str sr="arg1" ve="3">input-label</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>38</code>
+		</Action>
+	</Task>
+	<Task sr="task112">
+		<cdate>1504789031578</cdate>
+		<edate>1504789031578</edate>
+		<id>112</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">word</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task113">
+		<cdate>1504843633051</cdate>
+		<edate>1504843633051</edate>
+		<id>113</id>
+		<Action sr="act0" ve="7">
+			<code>195</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">word</Str>
+			<Str sr="arg1" ve="3">input</Str>
+			<Int sr="arg2" val="2"/>
+			<Str sr="arg3" ve="3">%word_input</Str>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%word_input</lhs>
+					<op>5</op>
+					<rhs>^[a-zA-Z]+$</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">请输入纯英文</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>68</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">word</Str>
+			<Str sr="arg1" ve="3">word</Str>
+			<Int sr="arg2" val="1"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>51</code>
+			<Str sr="arg0" ve="3">word</Str>
+			<Str sr="arg1" ve="3">input</Str>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">word</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%word_input</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>38</code>
+		</Action>
+	</Task>
+	<Task sr="task114">
+		<cdate>1504788982450</cdate>
+		<edate>1504788982450</edate>
+		<id>114</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>445</code>
+			<Str sr="arg0" ve="3">%word_sound_path</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="3"/>
+			<Int sr="arg4" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>49</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">word</Str>
+		</Action>
+	</Task>
+	<Task sr="task115">
+		<cdate>1504118499058</cdate>
+		<edate>1505574502516</edate>
+		<id>115</id>
+		<nme>word</nme>
+		<pri>7</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<label>配置根路径</label>
+			<Str sr="arg0" ve="3">%root_path</Str>
+			<Str sr="arg1" ve="3">/storage/sdcard1/software_me/tasker/word</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<label>配置按键音</label>
+			<Str sr="arg0" ve="3">%word_sound_path</Str>
+			<Str sr="arg1" ve="3">%root_path/sound/sound3.wav</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>415</code>
+			<label>获取随机单词</label>
+			<Str sr="arg0" ve="3">%root_path/cet6.txt</Str>
+			<Str sr="arg1" ve="3">%word_index</Str>
+			<Str sr="arg2" ve="3">%word</Str>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>129</code>
+			<label>构建查询URL</label>
+			<Str sr="arg0" ve="3">var appKey = "2e92d7586dc7352a";
+var secretKey = "zXQ1Vo4ODUt8nHc3H006BSRo5RMNhBzK";
+var salt = Math.round(Math.random()*20+1);
+
+var hexcase = 1;
+var word_sign = hex_md5(appKey + word + salt + secretKey);
+var word_encode = encodeURI(word);
+var word_url = "/api?q=" + word_encode + "&amp;from=en&amp;to=zh_CHS&amp;appKey=" + appKey + "&amp;salt=" + salt + "&amp;sign=" + word_sign;</Str>
+			<Str sr="arg1" ve="3">%root_path/md5.min.js</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="45"/>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>118</code>
+			<Str sr="arg0" ve="3">openapi.youdao.com</Str>
+			<Str sr="arg1" ve="3">%word_url</Str>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="5"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%word_json</Str>
+			<Str sr="arg1" ve="3">%HTTPD</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%word_json</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">很抱歉，找不到该单词！</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3">word</Str>
+		</Action>
+		<Action sr="act18" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act19" ve="7">
+			<code>129</code>
+			<label>构建单词显示界面html</label>
+			<Str sr="arg0" ve="3">var wordObj = JSON.parse(word_json);
+var word_explains = wordObj.basic.explains;
+var word_webs = wordObj.web;
+var word = wordObj.query;
+var word_pronounce = wordObj.basic["phonetic"];
+
+var word_html = "&lt;style&gt;body {margin:5px;font-size:14px;color:#FFFFFF} .explain {list-style: none;padding-left:20px;}.web {list-style: decimal;margin:0;padding-left:20px;}&lt;/style&gt;&lt;body&gt;&lt;div&gt;&lt;h2&gt;&lt;span&gt;" + word;
+if (word_pronounce) {
+	word_html += " [" + word_pronounce + "]";
+}
+word_html += "&lt;/span&gt;&lt;/h2&gt;&lt;ul class='explain'&gt;";
+	
+for (var i=0; i &lt; word_explains.length; i++) {
+	word_html += "&lt;li&gt;" + word_explains[i] + "&lt;/li&gt;";
+}
+word_html += "&lt;/ul&gt;&lt;ul class='web'&gt;";
+for (var i=0; i &lt; word_webs.length; i++) {
+	var web = word_webs[i];
+	var webValueStr = web.value.join(" ");
+	word_html += "&lt;li&gt;" + web.key + "&lt;br&gt;" + webValueStr + "&lt;/li&gt;";
+}
+word_html += "&lt;/ul&gt;&lt;/div&gt;&lt;br&gt;&lt;br&gt;&lt;/body&gt;";</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="45"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>547</code>
+			<label>配置样式风格[trans,color]</label>
+			<Str sr="arg0" ve="3">%word_style</Str>
+			<Str sr="arg1" ve="3">color</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act20" ve="7">
+			<code>410</code>
+			<Str sr="arg0" ve="3">%root_path/word.html</Str>
+			<Str sr="arg1" ve="3">%word_html</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act21" ve="7">
+			<code>194</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">word</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">%is_word_scene_exist</Str>
+		</Action>
+		<Action sr="act22" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">word</Str>
+			<Int sr="arg1" val="7"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="1"/>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%is_word_scene_exist</lhs>
+					<op>0</op>
+					<rhs>uncreated</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%is_word_scene_exist</lhs>
+					<op>0</op>
+					<rhs>hidden</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act23" ve="7">
+			<code>53</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">word</Str>
+			<Str sr="arg1" ve="3">word</Str>
+			<Int sr="arg2" val="11"/>
+			<Str sr="arg3" ve="3"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>547</code>
+			<label>设置透明背景色</label>
+			<Str sr="arg0" ve="3">%word_background_color</Str>
+			<Str sr="arg1" ve="3">#2FFFFFFF</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%word_style</lhs>
+					<op>0</op>
+					<rhs>trans</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>547</code>
+			<label>动态设置背景色[80代表透明的0.5]</label>
+			<Str sr="arg0" ve="3">%word_background_color</Str>
+			<Str sr="arg1" ve="3">#80%WALLPAPER_COLOR_HEX</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%word_style</lhs>
+					<op>0</op>
+					<rhs>color</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>445</code>
+			<Str sr="arg0" ve="3">%word_sound_path</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="3"/>
+			<Int sr="arg4" val="1"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%word</Str>
+			<Str sr="arg1" ve="3">%par1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>545</code>
+			<Str sr="arg0" ve="3">%word_index</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="3786"/>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>hd_aaa_conv_a</nme>
+		</Img>
+	</Task>
+	<Task sr="task120">
+		<cdate>1505561332984</cdate>
+		<edate>1505562990130</edate>
+		<id>120</id>
+		<nme>foo-ticktick</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>877</code>
+			<label>创建滴答清单任务</label>
+			<se>false</se>
+			<Str sr="arg0" ve="3">android.intent.action.SEND</Str>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">text/plain</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">android.intent.extra.TEXT:%CLIP</Str>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3">cn.ticktick.task</Str>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+	</Task>
+	<Task sr="task121">
+		<cdate>1505561332984</cdate>
+		<edate>1505568369445</edate>
+		<id>121</id>
+		<nme>foo-exit</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">foo</Str>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">foo-selector</Str>
+		</Action>
+	</Task>
+	<Task sr="task122">
+		<cdate>1505561332984</cdate>
+		<edate>1505581455504</edate>
+		<id>122</id>
+		<nme>foo-search</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>104</code>
+			<Str sr="arg0" ve="3">https://www.baidu.com/s?word=%CLIP</Str>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">好的</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task123">
+		<cdate>1505565042397</cdate>
+		<edate>1505583925848</edate>
+		<id>123</id>
+		<nme>qrcode</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3">qrcode</Str>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<label>配置二维码文本</label>
+			<Str sr="arg0" ve="3">%qrcode_text</Str>
+			<Str sr="arg1" ve="3">%par1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>547</code>
+			<label>配置根路径</label>
+			<Str sr="arg0" ve="3">%root_path</Str>
+			<Str sr="arg1" ve="3">/storage/sdcard1/software_me/tasker/qrcode</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>547</code>
+			<label>配置样式风格color的透明度[0-1]</label>
+			<Str sr="arg0" ve="3">%qrcode_color_trans</Str>
+			<Str sr="arg1" ve="3">0.4</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>547</code>
+			<label>配置二维码大小</label>
+			<Str sr="arg0" ve="3">%qrcode_len</Str>
+			<Str sr="arg1" ve="3">150</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%qrcode_background_color</Str>
+			<Str sr="arg1" ve="3">rgba(%WALLPAPER_COLOR_RGB,%qrcode_color_trans)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%qrcode_html</Str>
+			<Str sr="arg1" ve="3">&lt;script src="%root_path/qrcode.min.js" type="text/javascript"&gt;&lt;/script&gt;
+&lt;style&gt;
+	body {
+		text-align: center;
+background-color: %qrcode_background_color;
+	}
+	#qrcode {
+		position: absolute;
+		text-align: center;
+		margin: 0 auto;
+		left: 50%;
+		top: 50%;
+	}
+&lt;/style&gt;
+&lt;body&gt;
+&lt;div id="qrcode" /&gt;
+&lt;/body&gt;
+&lt;script type="text/javascript"&gt;
+	var qrcodeLen = %qrcode_len;
+	var qrcodeLen2 = qrcodeLen / 2;
+	var qrcodeDiv = document.getElementById("qrcode");
+	qrcodeDiv.style.width = qrcodeLen + "px";
+	qrcodeDiv.style.height = qrcodeLen + "px";
+	qrcodeDiv.style.marginTop = "-" + qrcodeLen2 + "px";
+	qrcodeDiv.style.marginLeft = "-" + qrcodeLen2 + "px";
+	
+	var qrcode = new QRCode(qrcodeDiv, {
+		text: "%qrcode_text",
+		width: qrcodeLen,
+		height: qrcodeLen,
+		colorDark : "#000000",
+		colorLight : "#FFFFFF",
+		correctLevel : QRCode.CorrectLevel.H
+	});
+&lt;/script&gt;</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">qrcode</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="1"/>
+		</Action>
+	</Task>
+	<Task sr="task125">
+		<cdate>1505566734559</cdate>
+		<edate>1505566734559</edate>
+		<id>125</id>
+		<pri>7</pri>
+		<Action sr="act0" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">qrcode</Str>
+		</Action>
+	</Task>
+	<Task sr="task129">
+		<cdate>1505567221422</cdate>
+		<edate>1505567221422</edate>
+		<id>129</id>
+		<pri>8</pri>
+		<Action sr="act0" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">foo-selector</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">foo</Str>
+		</Action>
+	</Task>
+	<Task sr="task130">
+		<cdate>1505561332984</cdate>
+		<edate>1505584187336</edate>
+		<id>130</id>
+		<nme>foo-selector-conf</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<label>配置selector选项</label>
+			<Str sr="arg0" ve="3">%selector_conf</Str>
+			<Str sr="arg1" ve="3">{name: "搜索", task: "foo-search"},
+{name: "生成二维码", task: "foo-qrcode"},
+{name: "翻译:英&gt;中", task: "foo-fanyi-en"},
+{name: "滴答清单", task: "foo-ticktick"},
+{name: "随笔记", task: "foo-gnote"},
+{name: "分享", task: "foo-share"},</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<label>配置字体颜色</label>
+			<Str sr="arg0" ve="3">%selector_color</Str>
+			<Str sr="arg1" ve="3">#00BCD4</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>410</code>
+			<Str sr="arg0" ve="3">%root_path/selector.html</Str>
+			<Str sr="arg1" ve="3">&lt;!DOCTYPE html&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml"&gt;
+ &lt;head&gt;
+  &lt;style&gt;
+	body {background-color: #FFFFFF; color: %selector_color; font-size:14px; font-weight: bold; border: 3px solid %selector_color; margin: 0; padding: 0}
+	.app {margin-top: 8px; margin-left: 15px;margin-bottom: 8px;}
+	.exit {position:absolute; right: 5px; bottom: 10px; width: 10px; height: 10px;}
+  &lt;/style&gt;
+ &lt;/head&gt;
+ &lt;body&gt;
+	&lt;script&gt;
+	var confs = [%selector_conf];
+	confs.push({name: "X", task: "foo-exit"});
+	var body = document.body;
+	for (var i = 0 ;i &lt; confs.length; i++) {
+		var conf = confs[i];
+		var appEle = document.createElement("div");
+		appEle.setAttribute("class", (conf.name == "X" ? "exit" : "app"));
+		appEle.setAttribute("onclick", "exec('" + conf.task + "')");
+		appEle.innerText = conf.name;
+		body.appendChild(appEle);
+	}
+	
+	
+	function exec(task) {
+		performTask(task, 5);
+		performTask('foo-exit', 5);
+	}
+	&lt;/script&gt; 
+ &lt;/body&gt;
+&lt;/html&gt;</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">foo-selector</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="1"/>
+		</Action>
+	</Task>
+	<Task sr="task131">
+		<cdate>1505561332984</cdate>
+		<edate>1505584161816</edate>
+		<id>131</id>
+		<nme>foo</nme>
+		<pri>6</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<label>配置根路径</label>
+			<Str sr="arg0" ve="3">%FOO_ROOT_PATH</Str>
+			<Str sr="arg1" ve="3">/storage/sdcard1/software_me/tasker/foo</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">foo</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3">
+				<var>50</var>
+			</Int>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="1"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>30</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="4"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">foo</Str>
+		</Action>
+	</Task>
+	<Task sr="task132">
+		<cdate>1505561332984</cdate>
+		<edate>1505574205198</edate>
+		<id>132</id>
+		<nme>foo-fanyi-en</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">word</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%CLIP</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task133">
+		<cdate>1505561332984</cdate>
+		<edate>1505563259281</edate>
+		<id>133</id>
+		<nme>foo-share</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>877</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">android.intent.action.SEND</Str>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">text/plain</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">android.intent.extra.TEXT:%CLIP</Str>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+	</Task>
+	<Task sr="task134">
+		<cdate>1505561332984</cdate>
+		<edate>1505581443954</edate>
+		<id>134</id>
+		<nme>foo-gnote</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>877</code>
+			<label>随笔记</label>
+			<se>false</se>
+			<Str sr="arg0" ve="3">android.intent.action.SEND</Str>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">text/plain</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">android.intent.extra.TEXT:%CLIP</Str>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3">org.dayup.gnotes</Str>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+	</Task>
+</TaskerData>

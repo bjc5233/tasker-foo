@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <style>
+	body {background-color: #FFFFFF; color: %selector_color; font-size:14px; font-weight: bold; border: 3px solid %selector_color; margin: 0; padding: 0}
+	.app {margin-top: 8px; margin-left: 15px;margin-bottom: 8px;}
+	.exit {position:absolute; right: 5px; bottom: 10px; width: 10px; height: 10px;}
+  </style>
+ </head>
+ <body>
+	<script>
+	var confs = [%selector_conf];
+	confs.push({name: "X", task: "foo-exit"});
+	var body = document.body;
+	for (var i = 0 ;i < confs.length; i++) {
+		var conf = confs[i];
+		var appEle = document.createElement("div");
+		appEle.setAttribute("class", (conf.name == "X" ? "exit" : "app"));
+		appEle.setAttribute("onclick", "exec('" + conf.task + "')");
+		appEle.innerText = conf.name;
+		body.appendChild(appEle);
+	}
+	
+	
+	function exec(task) {
+		performTask(task, 5);
+		performTask('foo-exit', 5);
+	}
+	</script> 
+ </body>
+</html>
